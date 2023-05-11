@@ -1,8 +1,21 @@
+import Portfolio from "./components/Portfolio";
+import About from "./components/About";
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
+import SocialLinks from "./components/SocialLinks";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="font-signature">hello how are you skinny bitch :)</h1>
+      <NavBar />
+      <Home />
+      <SocialLinks />
+      <About />
+      <Portfolio />
+      <Experience />
+      <Contact/>
     </div>
   );
 }
