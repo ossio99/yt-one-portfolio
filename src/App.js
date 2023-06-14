@@ -7,17 +7,17 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 
 function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <Home />
-      <SocialLinks />
-      <About />
-      <Portfolio />
-      <Experience />
-      <Contact/>
-    </div>
-  );
+	return (
+		<div className="App">
+			<NavBar />
+			<Home />
+			<SocialLinks />
+			<About />
+			<Portfolio />
+			<Experience />
+			<Contact />
+		</div>
+	);
 }
 
 export default App;
