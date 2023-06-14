@@ -11,6 +11,7 @@ import { SiFirebase } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
+import { SiSequelize } from "react-icons/si";
 
 const Portfolio = () => {
 	const projects = [
@@ -30,7 +31,7 @@ const Portfolio = () => {
 			description: 'Pagina con toda la informacion necesaria de una agencia de viajes',
 			demoLink: 'https://agencia-viajes.herokuapp.com/',
 			codeLink: 'https://github.com/ossio99/agenvia-viajes',
-			techs: [IoLogoNodejs, SiExpress, SiBootstrap, SiMysql]
+			techs: [IoLogoNodejs, SiExpress, SiBootstrap, SiMysql, SiSequelize]
 		}
 	]
 
