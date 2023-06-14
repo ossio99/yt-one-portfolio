@@ -12,6 +12,7 @@ import { SiExpress } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiSequelize } from "react-icons/si";
+import { SiPug } from "react-icons/si";
 
 const Portfolio = () => {
 	const projects = [
@@ -31,7 +32,7 @@ const Portfolio = () => {
 			description: 'Pagina con toda la informacion necesaria de una agencia de viajes',
 			demoLink: 'https://agencia-viajes.herokuapp.com/',
 			codeLink: 'https://github.com/ossio99/agenvia-viajes',
-			techs: [IoLogoNodejs, SiExpress, SiBootstrap, SiMysql, SiSequelize]
+			techs: [IoLogoNodejs, SiExpress,SiPug, SiBootstrap, SiMysql, SiSequelize]
 		}
 	]
 
@@ -50,7 +51,7 @@ const Portfolio = () => {
 							<div>
 								<h2 className='text-center my-3'>{title}</h2>
 								<p className='m-5'>{description}</p>
-								<div className='flex justify-center space-x-4'>
+								<div className='flex justify-center gap-4 mx-8 flex-wrap items-center'>
 									{techs.map((tech, i) => {
 										const TechComponent = tech;
 										return <TechComponent key={i} size='2em' />
