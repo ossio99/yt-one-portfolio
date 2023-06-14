@@ -10,16 +10,16 @@ const About = () => {
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Acerca de mi</p>
                 </div>
-                <p className='text-xl mt-20'>
-                    Soy un desarrollador web full stack al que le apasiona desarrollar software, me encata estar al pendiente de las nuevas tecnologias que se desarrollan y usarlas para mis proyectos.
-                </p>
-                <br />
                 <p className='text-xl'>
                     Estudie la carrera de ingeniería en sistemas computacionales en el TecNM campues Tierra blanca, donde desarrolle diferentes proyectos y conoci muchas tecnologias tambien.
                 </p>
                 <br />
                 <p className='text-xl'>
-                    Posteriormente trabaje en la empresa IDS como desarrollador por seis meses y actualmente me encuentro laborando como un desarrollador fullstack de manera freelance
+                    Posteriormente trabaje en la empresa IDS como desarrollador cobol por seis meses donde aprendí muchas cosas pero tambien me dí cuenta que lo que en verdad me gustaba era el desarrollo web
+                </p>
+                <br />
+                <p>
+                    Actualmente me encuentro laborando como un desarrollador fullstack de manera freelance
                 </p>
             </div>
         </div>

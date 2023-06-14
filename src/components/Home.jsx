@@ -10,8 +10,7 @@ const Home = () => {
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>Soy un desarrollador Full Stack</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    Tengo un año de experiencia desarrollando software.
-                    Actualmente, me encanta trabajar en aplicaciones web usando tecnologias como React, Tailwind, Next js and GraphQL.
+                    Me encanta trabajar en el desarrollo web fullstack usando tecnologias modernas y estar el pendiente de las nuevas tecnologias y caracteristicas de estas mismas.
                 </p>
                 <div>
                     <Link to='portafolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
