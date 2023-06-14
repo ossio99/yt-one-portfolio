@@ -18,7 +18,7 @@ const About = () => {
                     Posteriormente trabaje en la empresa IDS como desarrollador cobol por seis meses donde aprendí muchas cosas pero tambien me dí cuenta que lo que en verdad me gustaba era el desarrollo web
                 </p>
                 <br />
-                <p>
+                <p className='text-xl'>
                     Actualmente me encuentro laborando como un desarrollador fullstack de manera freelance
                 </p>
             </div>
