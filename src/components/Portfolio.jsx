@@ -44,6 +44,7 @@ const Portfolio = () => {
 					<p className='py-6'>Echale un ojo a algunos de mis trabajos</p>
 				</div>
 
+
 				<div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 					{projects.map(({ id, src, demoLink, codeLink, title, techs, description }) => (
 						<div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
