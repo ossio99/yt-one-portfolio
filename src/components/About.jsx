@@ -17,6 +17,10 @@ const About = () => {
                 <p className='text-xl'>
                     Estudie la carrera de ingeniería en sistemas computacionales en el TecNM campues Tierra blanca, donde desarrolle diferentes proyectos y conoci muchas tecnologias tambien.
                 </p>
+                <br />
+                <p className='text-xl'>
+                    Posteriormente trabaje en la empresa IDS como desarrollador por seis meses y actualmente me encuentro laborando como un desarrollador fullstack de manera freelance
+                </p>
             </div>
         </div>
     )
