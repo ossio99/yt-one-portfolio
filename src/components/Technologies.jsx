@@ -8,7 +8,8 @@ import github from '../assets/github.png'
 import tailwild from '../assets/tailwind.png'
 import node from '../assets/node.png'
 import express from '../assets/express.png'
-import mongoDB from '../assets/mongo-db.png'
+// import mongoDB from '../assets/mongo-db.png'
+import mongoDB from '../assets/mongodb.png'
 
 const Experience = () => {
     const technologies

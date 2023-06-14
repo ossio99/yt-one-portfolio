@@ -1,14 +1,16 @@
 import travelAgency from '../assets/portfolio/travelAgency.png'
 import appGastos from '../assets/portfolio/appGastos.png'
 
-// import javascript from '../assets/portfolio/techs/javascript.png'
-import node from '../assets/portfolio/techs/node.png'
-import reactImage from '../assets/portfolio/techs/react.png'
-// import nextjs from '../assets/portfolio/techs/nextjs.png'
-import tailwild from '../assets/portfolio/techs/tailwind.png'
-import express from '../assets/portfolio/techs/express.png'
-import firebase from '../assets/portfolio/techs/firebase.png'
-// import reactRouter from '../assets/portfolio/techs/react-router.png'
+
+import { FaReact } from "react-icons/fa";
+// import { SiTailwindcss } from "react-icons/si";
+import { IoLogoNodejs } from "react-icons/io";
+import { SiReactrouter } from "react-icons/si";
+import { SiStyledcomponents } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { SiBootstrap } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 
 const Portfolio = () => {
 	const projects = [
@@ -19,8 +21,7 @@ const Portfolio = () => {
 			description: 'Aplicacion para administrar tus gastos',
 			demoLink: 'https://app-gastos-2.web.app/',
 			codeLink: 'https://github.com/ossio99/app_gastos',
-			techs: [reactImage, firebase]
-			// techs: [reactImage, reactRouter, firebase]
+			techs: [FaReact, SiReactrouter, SiStyledcomponents, SiFirebase]
 		},
 		{
 			id: 3,
@@ -29,7 +30,7 @@ const Portfolio = () => {
 			description: 'Pagina con toda la informacion necesaria de una agencia de viajes',
 			demoLink: 'https://agencia-viajes.herokuapp.com/',
 			codeLink: 'https://github.com/ossio99/agenvia-viajes',
-			techs: [node, express, tailwild]
+			techs: [IoLogoNodejs, SiExpress, SiBootstrap, SiMysql]
 		}
 	]
 
@@ -48,10 +49,11 @@ const Portfolio = () => {
 							<div>
 								<h2 className='text-center my-3'>{title}</h2>
 								<p className='m-5'>{description}</p>
-								<div className='flex justify-center'>
-									{techs.map((tech, i) => (
-										<img key={i} src={tech} alt=""  className="mx-3"/>
-									))}
+								<div className='flex justify-center space-x-4'>
+									{techs.map((tech, i) => {
+										const TechComponent = tech;
+										return <TechComponent key={i} size='2em' />
+									})}
 								</div>
 							</div>
 							<div className='flex items-center justify-center'>
