@@ -51,7 +51,7 @@ const Portfolio = () => {
 							<div>
 								<h2 className='text-center my-3'>{title}</h2>
 								<p className='m-5'>{description}</p>
-								<div className='flex justify-center gap-4 mx-8 flex-wrap items-center'>
+								<div className='flex justify-center gap-4 mx-8 md:mx-3 flex-wrap items-center'>
 									{techs.map((tech, i) => {
 										const TechComponent = tech;
 										return <TechComponent key={i} size='2em' />
