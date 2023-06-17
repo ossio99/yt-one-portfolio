@@ -1,9 +1,10 @@
 import travelAgency from '../assets/portfolio/travelAgency.png'
 import appGastos from '../assets/portfolio/appGastos.png'
+import apv from '../assets/portfolio/apv.png'
 
 
 import { FaReact } from "react-icons/fa";
-// import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io";
 import { SiReactrouter } from "react-icons/si";
 import { SiStyledcomponents } from "react-icons/si";
@@ -13,9 +14,19 @@ import { SiBootstrap } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiSequelize } from "react-icons/si";
 import { SiPug } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
 
 const Portfolio = () => {
 	const projects = [
+		{
+			id: 1,
+			src: apv,
+			title: 'Aplicacion de pacientes de veterinaria',
+			description: 'Aplicacion para administrar los pacientes de un veterinario',
+			demoLink: 'https://mern-apv-frontend-ashy.vercel.app',
+			codeLink: 'https://github.com/ossio99/MERN_APV_frontend',
+			techs: [FaReact, SiReactrouter, SiTailwindcss, IoLogoNodejs, SiExpress, SiMongodb]
+		},
 		{
 			id: 2,
 			src: appGastos,
