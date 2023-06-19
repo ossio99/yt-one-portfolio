@@ -43,7 +43,7 @@ const Portfolio = () => {
 			description: 'Pagina con toda la informacion necesaria de una agencia de viajes',
 			demoLink: 'https://agencia-viajes.herokuapp.com/',
 			codeLink: 'https://github.com/ossio99/agenvia-viajes',
-			techs: [IoLogoNodejs, SiExpress,SiPug, SiBootstrap, SiMysql, SiSequelize]
+			techs: [IoLogoNodejs, SiExpress, SiPug, SiBootstrap, SiMysql, SiSequelize]
 		}
 	]
 
@@ -57,12 +57,15 @@ const Portfolio = () => {
 
 
 				<div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+				{/* <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-9 sm:px-12 sm:px-0'> */}
 					{projects.map(({ id, src, demoLink, codeLink, title, techs, description }) => (
 						<div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
 							<img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
 							<div>
-								<h2 className='text-center my-3'>{title}</h2>
-								<p className='m-5'>{description}</p>
+								<div className='m-5 text-center'>
+									<p className='text-center font-bold'>{title}</p>
+									<p className='mt-3 text-gray-300'>{description}</p>
+								</div>
 								<div className='flex justify-center gap-4 mx-8 md:mx-3 flex-wrap items-center'>
 									{techs.map((tech, i) => {
 										const TechComponent = tech;

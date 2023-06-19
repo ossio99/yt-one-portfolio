@@ -14,7 +14,7 @@ const About = () => {
                 <div className='pb-8'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Acerca de mi</p>
                 </div>
-                <p className='md:text-xl'>
+                <p className='md:text-xl mt-20'>
                     Estudie la carrera de ingeniería en sistemas computacionales en el TecNM campus Tierra blanca, donde desarrolle diferentes proyectos y conoci muchas tecnologias y participe en evetos y cursos.
                 </p>
                 <br />
