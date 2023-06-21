@@ -12,7 +12,8 @@ function App() {
 		<>
 			<HelmetProvider>
 				<Helmet>
-				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+					{/* <meta name="viewport" content="width=device-width, initial-scale=1.0" /> */}
+					<meta name="description" content="Portafolio" />
 					<title>Ossio</title>
 				</Helmet>
 				<div className="App">
